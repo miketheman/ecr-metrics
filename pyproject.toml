@@ -5,15 +5,13 @@ description = "Lambda Function to collect ECR metrics and emit to CloudWatch"
 authors = ["Mike Fiedler <miketheman@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [
-    { include = "ecr_metrics", from = "src" },
-]
+packages = [{ include = "ecr_metrics", from = "src" }]
 
 [tool.poetry.scripts]
 ecr-metrics = 'ecr_metrics:main.cli'
 
 [tool.poetry.dependencies]
-python = "~3.10"
+python = "~3.11"
 boto3 = "^1.28.31"
 
 [tool.poetry.group.dev.dependencies]
