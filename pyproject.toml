@@ -15,7 +15,7 @@ python = "~3.11"
 boto3 = "^1.28.31"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.7.0"
+black = "^24.3.0"
 botocore = "^1.31.31"
 pytest = "^7.4.0"
 
