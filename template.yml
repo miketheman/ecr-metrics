@@ -9,6 +9,8 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       PackageType: Image
+      Architectures:
+        - arm64
       Policies:
         # Give the function access to what it needs
         - Statement:
