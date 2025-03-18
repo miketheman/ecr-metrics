@@ -1,5 +1,5 @@
 # Build stage
-FROM public.ecr.aws/lambda/python:3.11
+FROM public.ecr.aws/lambda/python:3.13-arm64
 WORKDIR ${LAMBDA_TASK_ROOT}
 
 # Add Poetry to the image
