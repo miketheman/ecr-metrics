@@ -49,6 +49,7 @@ and Python 3.13 installed.
 
 ```shell
 git clone https://github.com/miketheman/ecr-metrics.git
+cd ecr-metrics
 poetry install
 ecr-metrics
 ```
